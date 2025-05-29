@@ -1,0 +1,100 @@
+body {
+	font-family: Arial, sans-serif;
+	width: clamp(500px, 1000px, 1500px);
+	margin: 0;
+	background: #f5f5f5;
+	color: #333;
+}
+
+.cv-container {
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+	width: 30%;
+	background: #716b7b;
+	color: #ecf0f1;
+	padding: 2rem;
+	box-sizing: border-box;
+}
+
+.left-panel h3{
+	font-size: 18px;
+	margin-bottom: 2rem;
+}
+
+.right-panel h3{
+	font-size: 18px;
+	margin-bottom: 0.2rem;
+}
+
+.right-panel {
+	width: 70%;
+	padding: 2rem;
+	box-sizing: border-box;
+}
+
+
+.profile-pic img {
+	width: 70%;
+	border-radius: 50%;
+	margin-bottom: 0.2rem;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 0.2rem;
+}
+
+.left-panel h2,
+.right-panel h2 {
+	margin-top: 3rem;
+	font-size: 22px;
+	border-bottom: 2px solid #7f8c8d;
+	padding-bottom: 0.3rem;
+}
+
+.left-panel ul {
+	list-style: none;
+	padding: 0;
+}
+
+.left-panel p {
+	display: block;
+	font-size: 14px;
+	max-width: 100%;
+	word-wrap: break-word;
+}
+
+#contacts {
+	margin-top: 4rem;
+}
+
+.job h3 {
+	margin: 0.5rem 0;
+	font-size: 16px;
+}
+
+.job span {
+	float: right;
+	font-size: 14px;
+	color: #888;
+}
+
+a {
+	color: #3498db;
+	text-decoration: none;
+}
+
+.left-panel a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
